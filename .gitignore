@@ -1,0 +1,13 @@
+# Node / Payload
+node_modules/
+.next/
+.env
+.env.local
+
+# Python / LiveKit agent
+.venv/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
