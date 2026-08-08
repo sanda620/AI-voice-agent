@@ -5,6 +5,9 @@ export const Patients: CollectionConfig = {
 
   access: {
     read: () => true,
+    create: () => true,
+    update: () => true,
+    delete: () => true,
   },
 
   admin: {
